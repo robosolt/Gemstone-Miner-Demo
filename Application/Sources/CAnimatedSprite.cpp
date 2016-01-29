@@ -63,7 +63,7 @@ CAnimatedSprite::SelectTexture (unsigned int inIndex)
 void
 CAnimatedSprite::Update (Uint32 inCurTicks)
 {
-	// update as a norma sprite
+	// update as a normal sprite
 	CSprite::Update (inCurTicks);
 
 	// but change the texture when the time has come
