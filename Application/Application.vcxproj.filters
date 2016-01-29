@@ -1,0 +1,322 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\SDL">
+      <UniqueIdentifier>{046cd5a5-01bf-43a9-960a-2ffc8477d380}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SDL Wrappers">
+      <UniqueIdentifier>{82430399-ea78-4fb8-b4d8-c7350a064102}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Sources\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\PrecHeaders.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\CApplication.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\CArtifact.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\CSprite.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\CDrawable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\CTextControl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\CFont.cpp">
+      <Filter>Source Files\SDL Wrappers</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\CTexture.cpp">
+      <Filter>Source Files\SDL Wrappers</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\CRenderer.cpp">
+      <Filter>Source Files\SDL Wrappers</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Memory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\CGameBoard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\CStage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\CGame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\CMatrix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\CAnimatedSprite.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\CInterpolator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Components\SDL2-2.0.3\include\SDL.h">
+      <Filter>Source Files\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Components\SDL2-2.0.3\include\SDL_video.h">
+      <Filter>Source Files\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Components\SDL2-2.0.3\include\SDL_assert.h">
+      <Filter>Source Files\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Components\SDL2-2.0.3\include\SDL_atomic.h">
+      <Filter>Source Files\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Components\SDL2-2.0.3\include\SDL_audio.h">
+      <Filter>Source Files\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Components\SDL2-2.0.3\include\SDL_bits.h">
+      <Filter>Source Files\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Components\SDL2-2.0.3\include\SDL_blendmode.h">
+      <Filter>Source Files\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Components\SDL2-2.0.3\include\SDL_clipboard.h">
+      <Filter>Source Files\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Components\SDL2-2.0.3\include\SDL_config.h">
+      <Filter>Source Files\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Components\SDL2-2.0.3\include\SDL_cpuinfo.h">
+      <Filter>Source Files\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Components\SDL2-2.0.3\include\SDL_endian.h">
+      <Filter>Source Files\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Components\SDL2-2.0.3\include\SDL_error.h">
+      <Filter>Source Files\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Components\SDL2-2.0.3\include\SDL_events.h">
+      <Filter>Source Files\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Components\SDL2-2.0.3\include\SDL_filesystem.h">
+      <Filter>Source Files\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Components\SDL2-2.0.3\include\SDL_gamecontroller.h">
+      <Filter>Source Files\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Components\SDL2-2.0.3\include\SDL_gesture.h">
+      <Filter>Source Files\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Components\SDL2-2.0.3\include\SDL_haptic.h">
+      <Filter>Source Files\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Components\SDL2-2.0.3\include\SDL_hints.h">
+      <Filter>Source Files\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Components\SDL2-2.0.3\include\SDL_joystick.h">
+      <Filter>Source Files\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Components\SDL2-2.0.3\include\SDL_keyboard.h">
+      <Filter>Source Files\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Components\SDL2-2.0.3\include\SDL_keycode.h">
+      <Filter>Source Files\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Components\SDL2-2.0.3\include\SDL_loadso.h">
+      <Filter>Source Files\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Components\SDL2-2.0.3\include\SDL_log.h">
+      <Filter>Source Files\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Components\SDL2-2.0.3\include\SDL_main.h">
+      <Filter>Source Files\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Components\SDL2-2.0.3\include\SDL_messagebox.h">
+      <Filter>Source Files\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Components\SDL2-2.0.3\include\SDL_mouse.h">
+      <Filter>Source Files\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Components\SDL2-2.0.3\include\SDL_mutex.h">
+      <Filter>Source Files\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Components\SDL2-2.0.3\include\SDL_name.h">
+      <Filter>Source Files\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Components\SDL2-2.0.3\include\SDL_opengl.h">
+      <Filter>Source Files\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Components\SDL2-2.0.3\include\SDL_opengles.h">
+      <Filter>Source Files\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Components\SDL2-2.0.3\include\SDL_opengles2.h">
+      <Filter>Source Files\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Components\SDL2-2.0.3\include\SDL_pixels.h">
+      <Filter>Source Files\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Components\SDL2-2.0.3\include\SDL_platform.h">
+      <Filter>Source Files\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Components\SDL2-2.0.3\include\SDL_power.h">
+      <Filter>Source Files\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Components\SDL2-2.0.3\include\SDL_quit.h">
+      <Filter>Source Files\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Components\SDL2-2.0.3\include\SDL_rect.h">
+      <Filter>Source Files\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Components\SDL2-2.0.3\include\SDL_render.h">
+      <Filter>Source Files\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Components\SDL2-2.0.3\include\SDL_revision.h">
+      <Filter>Source Files\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Components\SDL2-2.0.3\include\SDL_rwops.h">
+      <Filter>Source Files\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Components\SDL2-2.0.3\include\SDL_scancode.h">
+      <Filter>Source Files\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Components\SDL2-2.0.3\include\SDL_shape.h">
+      <Filter>Source Files\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Components\SDL2-2.0.3\include\SDL_stdinc.h">
+      <Filter>Source Files\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Components\SDL2-2.0.3\include\SDL_surface.h">
+      <Filter>Source Files\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Components\SDL2-2.0.3\include\SDL_system.h">
+      <Filter>Source Files\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Components\SDL2-2.0.3\include\SDL_syswm.h">
+      <Filter>Source Files\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Components\SDL2-2.0.3\include\SDL_test.h">
+      <Filter>Source Files\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Components\SDL2-2.0.3\include\SDL_test_assert.h">
+      <Filter>Source Files\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Components\SDL2-2.0.3\include\SDL_test_common.h">
+      <Filter>Source Files\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Components\SDL2-2.0.3\include\SDL_test_compare.h">
+      <Filter>Source Files\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Components\SDL2-2.0.3\include\SDL_test_crc32.h">
+      <Filter>Source Files\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Components\SDL2-2.0.3\include\SDL_test_font.h">
+      <Filter>Source Files\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Components\SDL2-2.0.3\include\SDL_test_fuzzer.h">
+      <Filter>Source Files\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Components\SDL2-2.0.3\include\SDL_test_harness.h">
+      <Filter>Source Files\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Components\SDL2-2.0.3\include\SDL_test_images.h">
+      <Filter>Source Files\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Components\SDL2-2.0.3\include\SDL_test_log.h">
+      <Filter>Source Files\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Components\SDL2-2.0.3\include\SDL_test_md5.h">
+      <Filter>Source Files\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Components\SDL2-2.0.3\include\SDL_test_random.h">
+      <Filter>Source Files\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Components\SDL2-2.0.3\include\SDL_thread.h">
+      <Filter>Source Files\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Components\SDL2-2.0.3\include\SDL_timer.h">
+      <Filter>Source Files\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Components\SDL2-2.0.3\include\SDL_touch.h">
+      <Filter>Source Files\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Components\SDL2-2.0.3\include\SDL_types.h">
+      <Filter>Source Files\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Components\SDL2-2.0.3\include\SDL_version.h">
+      <Filter>Source Files\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Components\SDL2-2.0.3\include\begin_code.h">
+      <Filter>Source Files\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Components\SDL2-2.0.3\include\close_code.h">
+      <Filter>Source Files\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Utils.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\PrecHeaders.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\CApplication.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\CArtifact.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\CSprite.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Events.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\CDrawable.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\CTextControl.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\CFont.h">
+      <Filter>Source Files\SDL Wrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\CTexture.h">
+      <Filter>Source Files\SDL Wrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\CRenderer.h">
+      <Filter>Source Files\SDL Wrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Memory.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\CGameBoard.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\CStage.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\CGame.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\CMatrix.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\CAnimatedSprite.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\CInterpolator.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Notes.txt" />
+  </ItemGroup>
+</Project>

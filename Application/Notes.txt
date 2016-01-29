@@ -1,0 +1,12 @@
+
+NOTES:
+- many ints should be unsigned, but this has proven to be unpractical since the SDL library uses ints in stead of
+	unsigned ints in many places, and the code would become littered with casts to avoid compiler errors/warnings
+- the program uses a timer to signal the right time to render; this could also be done by testing in the event-loop
+	but this may cause timing to interfere with event processing or vice versa (too much time rendering may not
+	leave enough time for event processing - for good responsiveness, it should be preferred to drop frames instead)
+
+TO DO:
+- keep score and put it on the display
+
+
